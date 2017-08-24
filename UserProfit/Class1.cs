@@ -17,7 +17,7 @@ namespace UserProfit
             return sum;
         }
 
-        public int[] Summary( List<int>all, int period )
+        internal int[] Summary( List<int>all, int period )
         {
             List<int> ret = new List<int>();
 
@@ -38,9 +38,9 @@ namespace UserProfit
             return ret.ToArray();
         }
 
-        public int[] SummarySheet( List<List<int>>sheet, int col, int period )
+        public int[] SummarySheet( Dictionary<string,List<int>>sheet, string col, int period )
         {
-            return Summary(sheet[col], period);
+            return Summary( sheet[col], period);
         }
     }
 }
