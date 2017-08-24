@@ -12,7 +12,7 @@ namespace UserProfit.Tests
     public class UserProfitDailyTests
     {
         [TestMethod()]
-        public void SumTest_cost_with_3_period()
+        public void SummaryTest_cost_with_3_period()
         {
             List<int> Cost = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
             var target = new UserProfitDaily();
@@ -24,7 +24,7 @@ namespace UserProfit.Tests
         }
 
         [TestMethod()]
-        public void SummaryTest_cost_with_3_period()
+        public void SummaryTest_revenue_with_3_period()
         {
             List<int> Revenue = new List<int> { 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 };
             var target = new UserProfitDaily();

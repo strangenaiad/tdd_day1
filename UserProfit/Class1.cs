@@ -37,5 +37,10 @@ namespace UserProfit
 
             return ret.ToArray();
         }
+
+        public int[] SummarySheet( List<List<int>>sheet, int col, int period )
+        {
+            return Summary(sheet[col], period);
+        }
     }
 }

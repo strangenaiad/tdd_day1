@@ -1,2 +1,8 @@
 packages
+TestResults
+UserProfit/bin
+UserProfit/obj
+UserProfitTests/bin
+UserProfitTests/obj
 *.swp
+.vs
